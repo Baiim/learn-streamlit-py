@@ -18,7 +18,7 @@ st.title('Estimasi Harga Mobil Bekas')
 st.markdown('Input parameter mobil untuk mendapatkan estimasi harga.')
 
 # Add input fields for car parameters
-year = st.number_input('Tahun Mobil', min_value=1900, max_value=2100, step=1)
+year = st.number_input('Tahun Mobil', min_value=0, max_value=2100, step=1)
 mileage = st.number_input('KM Mobil', min_value=0, step=1000)
 mpg = st.number_input('Konsumsi BBM Mobil', min_value=0.0, step=0.1)
 tax = st.number_input('Pajak Mobil', min_value=0, step=1)
