@@ -2,7 +2,7 @@ import pickle as pc
 import streamlit as st
 import locale
 
-locale.setlocale(locale.LC_ALL, 'en_US')
+locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
 model = pc.load(open('estimasi_harga_mobil_bekas.sav', 'rb'))
 
